@@ -1,0 +1,520 @@
+/* css reset代码重置 */
+body{
+    margin: 0;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h2,h3,h4,h5{
+    margin: 0;
+}
+br{
+    margin-right: 0;
+}
+
+/* css layout */
+
+.fixed{
+    position: fixed;
+    width: 42px;
+    height: 662px;
+    background: #73bd49;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+}
+.absolute{
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: 136px;
+    padding-left: 3px;
+    
+}
+.absolute p{
+    
+}
+.absolute p.wenzi{
+    padding-top: 5px;
+}
+.absolute p a img{
+    margin-top: 25px;
+}
+
+.fixed .absolute .dibu{
+    position: absolute;
+    padding-top: 133px;
+    padding-left: 9px;
+}
+.fixed .absolute .dibu a img{
+
+}
+
+
+
+
+.inner{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.header{
+}
+.header .masthead{
+    font-size: 12px;
+    color: #64635e;
+    height: 36px; 
+    background: url(../images/headerbg.png) repeat-x 0% 100%;
+    margin-bottom: 35px;
+}
+.header .left{
+    margin-top: 8px;
+    float: left;
+}
+.header .left .dl{
+    color: #72bf49;
+}
+.header .left p{
+    float: left;   
+}
+
+.header .right img{
+    vertical-align: middle;
+}
+
+.header .right{
+    margin-top: 8px;
+    float: right;
+    
+}
+.header .right a,
+.header .right p{
+    float: right;
+    margin-left: 25px;    
+}
+
+
+
+/* title css */
+
+.title{
+    margin-bottom: 35px;
+    
+}
+.title .logo{
+    float: left;
+}
+.title .search{
+    float: left;
+}
+.title .search input{
+    float: left;
+    height: 35px;
+    width: 455px;
+    margin-left: 200px;
+    border: 1px solid #72bf49;
+}
+.title .search input.keyword{
+    padding-left: 7px;
+}
+.title .search input.keyword:focus{
+    outline: none;
+}
+.title .search button{
+    height: 39px;
+    width: 72px;
+    background: #72bf49;
+    color: white;
+    border: 0;
+    vertical-align: top;
+}
+.title .search p{
+    font-size: 12px;
+    color: #ada8a3;
+    margin-left: 200px;
+    padding-top: 8px;
+    
+}
+
+.title .car{
+   float: right;
+   border: 1px solid #72bf49;
+   padding: 6px 30px 9px 6px;
+   margin: 0;
+   font-size: 12px;
+}
+.title .car img{
+
+}
+.title .car a.number{
+    color: #72bf49;
+}
+
+
+
+/* nav  css */
+.inner{
+    
+}
+.nav{
+    margin-bottom: 20px;
+    background: #72bf49;
+    line-height: 52px;
+}
+.nav a.jc{
+    padding: 20px;
+    padding-right: 125px;
+    color: white;
+    background: url(../images/nav1.png) no-repeat 50% 50%;
+    background: #000;  
+}
+.nav a.jc:hover{
+    color: white;
+}
+.nav a{
+    
+    font-size: 16px;
+    color: white; 
+    margin-right: 85px;
+}
+
+.nav a:hover{
+    color: #000;
+}
+
+/* main css */
+.main{
+
+}
+.main .show{
+    margin-bottom: 75px;
+}
+.main .show ul{
+    overflow: hidden;
+}
+.main .show ul li{
+    width: 204px;
+    float: left;
+    margin-right: 45px;
+    overflow: hidden;
+}
+.main .show ul li.br{
+    margin-right: 0;
+}
+.main .show ul li img{
+   float: left;
+   margin-top: 30px;
+   margin-right: 15px;
+}
+.main .show ul li.intro{
+    float: right; 
+    
+}
+.main .show ul li h2{
+    
+    padding-top: 40px;
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.main .show ul li p{
+    line-height: 1.5;
+    color: #999;
+    
+}
+
+/* sort css */
+
+.sort{
+    margin-bottom: 60px;
+}
+
+
+
+/* hot css */
+.hot{
+    margin-bottom: 51px;
+    border-bottom: 1px solid #ebeae8;
+}
+.hot .top{
+    overflow: hidden;
+    border-bottom: 2px solid #72bf49;
+}
+.hot .top h3{
+    float: left;
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    font-weight: normal;
+} 
+.hot .top a{
+    float: right;
+    font-size: 16px;
+    color: #72bf49;
+    border: 1px solid #72bf49;
+    border-radius: 3px;
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 8px;
+} 
+
+.hot .goods ul{
+    margin-top: 55px;
+    overflow: hidden;
+    margin-bottom: 44px;
+}
+
+.hot .goods ul li{ 
+   float: left;
+
+}
+.hot .goods ul li:hover{
+    border: 1px solid #ebeae8;
+    
+}
+.hot .goods a img:hover{
+
+
+}
+.hot .goods ul li img{
+    display: block;
+    position: relative;
+    max-width: 226px;
+    max-height: 283px;
+    height: 283px;
+    width: 226px;
+    margin-right: 13px;
+}
+.hot .goods ul li.br{
+    margin-right: 0;
+}
+.hot .goods ul li h5{
+    text-align: center;
+    font-size: 14px;
+    
+}
+.hot .goods ul li p{
+    color: #72bf49;
+    text-align: center;
+    
+}
+
+/* product css */
+
+.product{
+margin-bottom: 40px;
+}
+.product .top1{
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.product .top1 h3{
+    float: left;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    font-weight: normal;
+}
+.product .top1 p{
+    float: left;
+    font-size: 14px;
+    color: #ada8a3;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.product .top1 a{
+    float: right;
+    border: 1px solid #000;
+    padding: 6px 38px 6px 38px;
+    border-radius: 3px;
+}
+.product .top1 a:hover{
+    background: #323534;
+    color: white;
+}
+.product .food img.big{
+    
+    float: left;
+}
+
+.product .food ul{
+    
+    
+}
+.product .food ul li{
+    
+}
+.product .food ul li a{
+    float: left;
+    margin-left: 12px;
+    border: 1px solid #eeedeb;
+    margin-bottom: 8px;
+}
+.product .food ul li a:hover{
+    border: 1px solid #72bf49;
+}
+
+.product .food ul li a.one{
+    margin-left: 0;
+    
+}
+.product .food ul li img{
+    display: block;
+    position: relative;
+    max-width: 154px;
+    max-height: 148px;
+    height: 148px;
+    width: 154px;
+    margin-right: 5px;
+    padding: 15px;
+    margin-bottom: 8px;
+}
+
+.product .food ul li a h5{
+    text-align: center;
+    font-size: 14px;  
+}
+.product .food ul li a h5:hover{
+    color: #0c64d0;
+}
+.product .food ul li a p{
+    color: #72bf49;
+    text-align: center;
+    
+}
+
+/* introduce css */
+
+.introduce{
+    margin-bottom: 83px;
+}
+.introduce .pppp{
+    margin-bottom: 38px;
+}
+.introduce .top1{
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+.introduce .top1 h3{
+  float: left;
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  font-weight: normal;
+  }
+.introduce .top1 p{
+  float: left;
+  font-size: 14px;
+  color: #ada8a3;
+  padding-top: 5px;
+  padding-left: 15px;
+  }
+.introduce .display{
+    
+}
+.introduce .display ul{
+    overflow: hidden;
+}
+.introduce .display ul li{
+    float: left;
+    margin-right: 50px;
+    width: 575px;
+    height: 150px;
+}
+.introduce .display ul li a img{
+   
+    height: 108px;
+    width: 150px;    
+}
+.introduce .display ul li .intro{    
+   float: right;   
+   width: 407px;
+   height: 92px;
+}
+.introduce .display ul li.br{
+    margin-right: 0;
+}
+.introduce .display ul li p{
+    font-size: 12px;
+    color: #898580;
+}
+.introduce .display ul li p.time{
+    padding-top: 13px;
+    padding-bottom: 8px;
+}
+.introduce .display ul li a h4{
+    color: #5a5a55;
+}
+
+/* footer css */
+
+.footer{
+    height: 406px;
+    overflow: hidden;
+    background: url(../images/foot.png) no-repeat;
+    
+}
+.footer ul{
+    
+}
+.footer ul li{
+    float: left;
+    margin-right: 168px;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 63px;
+}
+.footer ul li.br{
+    margin-right: 0;
+}
+.footer ul li p{
+    font-size: 18px;
+    line-height: 250%;
+}
+.footer ul li a{
+    font-size: 14px;
+    line-height: 200%;
+    
+}
+
+.footer .links{
+    border-top: 2px solid #60ac3a;
+    padding-top: 35px;
+    clear: both;
+    text-align: center;
+    
+}
+.footer .links a{
+    margin-right: 20px;
+    color: white;
+}
+.footer .links i{
+    padding-right: 15px;
+    font-style: normal;
+    color: #dde5ee;
+}
+.footer .copyright p{
+    text-align: center;
+    color: #eefedd;
+    padding-top: 15px;
+}
+.footer .last{
+    margin-top: 12px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    color: #eefedd;
+    background: url(../images/copyrightbg.png) no-repeat 50% 50%;
+}
